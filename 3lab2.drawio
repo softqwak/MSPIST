@@ -5,51 +5,106 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="Пользователь" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="164.5" y="128" width="275.5" height="570" as="geometry" />
+          <mxGeometry x="164.5" y="128" width="275.5" height="542" as="geometry" />
         </mxCell>
         <mxCell id="5" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="2" vertex="1">
-          <mxGeometry x="62.75" y="40" width="30" height="30" as="geometry" />
+          <mxGeometry x="122" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-46" value="" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="97" y="192" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-61" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endFill=0;fillColor=#f8cecc;" edge="1" parent="2" source="isATzn_e-f499eAec0NE-59" target="isATzn_e-f499eAec0NE-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-59" value="Посмотреть результаты анализа" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="67" y="410" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-60" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="2">
+          <mxGeometry x="122" y="472" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-53" value="Получить AST дерево из результатов анализа" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="304.75" y="260" width="194.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-56" value="Получить все ошибки и предупреждения с этапов лексического, синтаксического и семантического анализа" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="514.75" y="260" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-48" value="&quot;Анализ&quot;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="isATzn_e-f499eAec0NE-46" parent="2" target="isATzn_e-f499eAec0NE-53">
+          <mxGeometry x="-0.7791" y="-22" relative="1" as="geometry">
+            <mxPoint x="394.75" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="7.75" y="212" />
+              <mxPoint x="7.75" y="240" />
+              <mxPoint x="401.75" y="240" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-47" value="&quot;Диагностика&quot;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="isATzn_e-f499eAec0NE-46" parent="2" target="isATzn_e-f499eAec0NE-56">
+          <mxGeometry x="-0.9823" y="2" relative="1" as="geometry">
+            <mxPoint x="734.75" y="212" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-51" value="[Выбор вкладки]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="2">
+          <mxGeometry x="82" y="152" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-41" value="Выбирает поле просмотра результатов анализа" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="67" y="92" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#b85450;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;" parent="2" source="5" target="isATzn_e-f499eAec0NE-41" edge="1">
           <mxGeometry x="100" y="40" as="geometry">
             <mxPoint x="78.25" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="isATzn_e-f499eAec0NE-41" value="Выбирает поле просмотра результатов анализа" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="2">
-          <mxGeometry x="7.75" y="112" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="isATzn_e-f499eAec0NE-46" value="" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="2">
-          <mxGeometry x="90.5" y="224" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="isATzn_e-f499eAec0NE-47" value="&quot;Диагностика&quot;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="isATzn_e-f499eAec0NE-46" parent="2">
-          <mxGeometry x="-0.9823" y="2" relative="1" as="geometry">
-            <mxPoint x="735.5" y="244" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="isATzn_e-f499eAec0NE-48" value="&quot;Анализ&quot;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="isATzn_e-f499eAec0NE-46" parent="2">
-          <mxGeometry x="-0.7791" y="-22" relative="1" as="geometry">
-            <mxPoint x="395.5" y="272" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="8" y="244" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="isATzn_e-f499eAec0NE-51" value="[Выбор вкладки]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="2">
-          <mxGeometry x="75.5" y="182" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="3" value="Система" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="440" y="128" width="530" height="570" as="geometry" />
+          <mxGeometry x="440" y="128" width="520" height="542" as="geometry" />
         </mxCell>
         <mxCell id="isATzn_e-f499eAec0NE-43" value="Отобразить интерфейс с вкладками &quot;Анализ&quot; и &quot;Диагностика&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="3">
-          <mxGeometry x="167.75" y="72" width="194.5" height="40" as="geometry" />
+          <mxGeometry x="30" y="92" width="194.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="isATzn_e-f499eAec0NE-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;endArrow=open;endFill=0;" edge="1" parent="1" source="isATzn_e-f499eAec0NE-41" target="isATzn_e-f499eAec0NE-43">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="isATzn_e-f499eAec0NE-57" value="Отобразить все ошибки в текстовом формате в поле &quot;Диагностика&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="3">
+          <mxGeometry x="277" y="322" width="194.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-54" value="Отобразить полное AST дерево в текстовом формате в поле &quot;Анализ&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="3">
+          <mxGeometry x="16.5" y="322" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="isATzn_e-f499eAec0NE-52" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endFill=0;fillColor=#f8cecc;" edge="1" parent="1" source="isATzn_e-f499eAec0NE-43" target="isATzn_e-f499eAec0NE-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="567" y="280" />
+              <mxPoint x="302" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-58" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endFill=0;fillColor=#f8cecc;" edge="1" parent="1" source="isATzn_e-f499eAec0NE-56" target="isATzn_e-f499eAec0NE-57">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-63" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endFill=0;fillColor=#f8cecc;" edge="1" parent="1" source="isATzn_e-f499eAec0NE-57" target="isATzn_e-f499eAec0NE-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="814" y="520" />
+              <mxPoint x="302" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-55" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endFill=0;fillColor=#f8cecc;" edge="1" parent="1" source="isATzn_e-f499eAec0NE-53" target="isATzn_e-f499eAec0NE-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-62" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endFill=0;fillColor=#f8cecc;" edge="1" parent="1" source="isATzn_e-f499eAec0NE-54" target="isATzn_e-f499eAec0NE-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="567" y="520" />
+              <mxPoint x="302" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="isATzn_e-f499eAec0NE-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;endArrow=open;endFill=0;" edge="1" parent="1" source="isATzn_e-f499eAec0NE-41" target="isATzn_e-f499eAec0NE-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="240" />
+              <mxPoint x="450" y="240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
