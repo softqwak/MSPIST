@@ -121,7 +121,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PAyd272_Thw8yAXDjtvD-93" value="Parser" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="826" width="220" height="210" as="geometry" />
+          <mxGeometry x="170" y="1010" width="220" height="210" as="geometry" />
         </mxCell>
         <mxCell id="PAyd272_Thw8yAXDjtvD-94" value="+ tokens: List&amp;lt;Token&amp;gt;&lt;div&gt;+ lexems: List&amp;lt;string&amp;gt;&lt;/div&gt;&lt;div&gt;+ position: int&lt;/div&gt;&lt;div&gt;+ line: int&lt;/div&gt;&lt;div&gt;+ column: int&lt;/div&gt;&lt;div&gt;+ programAst: List&amp;lt;StmtAst&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PAyd272_Thw8yAXDjtvD-93">
           <mxGeometry y="26" width="220" height="94" as="geometry" />
@@ -133,7 +133,7 @@
           <mxGeometry y="124" width="220" height="86" as="geometry" />
         </mxCell>
         <mxCell id="PAyd272_Thw8yAXDjtvD-97" value="SimpleLexer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="826" width="220" height="160" as="geometry" />
+          <mxGeometry x="170" y="826" width="220" height="160" as="geometry" />
         </mxCell>
         <mxCell id="PAyd272_Thw8yAXDjtvD-98" value="+ sourse: string&lt;div&gt;+ position: int&lt;/div&gt;&lt;div&gt;+ line: int&lt;/div&gt;&lt;div&gt;+ column: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PAyd272_Thw8yAXDjtvD-97">
           <mxGeometry y="26" width="220" height="64" as="geometry" />
@@ -145,7 +145,7 @@
           <mxGeometry y="94" width="220" height="66" as="geometry" />
         </mxCell>
         <mxCell id="PAyd272_Thw8yAXDjtvD-101" value="SemanticAnalyzer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="826" width="360" height="200" as="geometry" />
+          <mxGeometry x="170" y="1239" width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="PAyd272_Thw8yAXDjtvD-102" value="+ VariableScopes: List&amp;lt;Dictionary&amp;lt;string, VariableInfo&amp;gt;&amp;gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Classes:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Dictionary&amp;lt;string, ClassInfo&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Functions:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Dictionary&amp;lt;string, FunctionInfo&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ CurrentFunctionReturnType: string&lt;/div&gt;&lt;div&gt;+ CurrentClass: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PAyd272_Thw8yAXDjtvD-101">
           <mxGeometry y="26" width="360" height="84" as="geometry" />
